@@ -18,14 +18,14 @@
                 <DataTemplate>
                     <SplitButton 
                         Content="Launch"
-                        Height="100" 
+                        Height="50" 
                         Width="200"
                         Margin="10">
                         <SplitButton.Flyout>
                             <MenuFlyout Placement="Bottom">
-                                <MenuFlyoutItem Text="{Binding}"/>
-                                <MenuFlyoutItem Text="{Binding}"/>
-                                <MenuFlyoutItem Text="{Binding}"/>
+                                <MenuFlyoutItem Text="{Binding}" Width="200"/>
+                                <MenuFlyoutItem Text="{Binding}" Width="200"/>
+                                <MenuFlyoutItem Text="{Binding}" Width="200"/>
                             </MenuFlyout>
                         </SplitButton.Flyout>
                     </SplitButton>
