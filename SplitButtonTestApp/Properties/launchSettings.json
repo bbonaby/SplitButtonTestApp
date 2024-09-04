@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SplitButtonTestApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SplitButtonTestApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
